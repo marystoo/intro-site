@@ -13,15 +13,21 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo">NL</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+      	<li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Portfolio</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Portfolio</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu blue-grey-text"></i></a>
     </div>
   </nav>
 
@@ -31,21 +37,21 @@
         <br><br>
         <h1 class="header center blue-grey-text text-darken-3">NanoLamb Design and Development</h1>
         <div class="row center">
-          <h5 class="header col s12 light blue-grey-text text-darken-3">Providing all of your design and front-end development needs.</h5>
+          <h5 class="header col s12 light blue-grey-text text-darken-3">Providing all of your design and front-end web development needs.</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light grey darken-2">Contact</a>
+          <a href="#contact" id="download-button" class="btn-large waves-effect waves-light grey darken-2">Contact</a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="pics/littlelamb.jpg" alt="Little Lamb. Photo by Tim Pokorny"></div>
+    <div class="parallax"><img src="pics/littlelamb.jpg" alt="Little Lamb. Photo by Tim Pokorny"class="opacity"></div>
   </div>
 
 
   <div class="container">
-    <div class="section">
+    <div id="intro" class="section">
 
       <!--   Icon Section   -->
       <div class="row">
@@ -55,6 +61,7 @@
             <h5 class="center">Designing</h5>
 
             <p class="light">Specializing in light-weight web pages.  Simple designs do not need to sacrafice elegance and style.  Get your information out there without the clutter.</p>
+            <p class="light">NanoLamb Designs will give a clean and clear site that is easy to understand and navigate.</p>
           </div>
         </div>
 
@@ -63,18 +70,11 @@
             <h2 class="center blue-grey-text"><i class="mdi-device-dvr"></i></h2>
             <h5 class="center">Programming</h5>
 
-            <p class="light">Utilizing JavaScript, JQuery, and frameworks such as Bootstrap and Materialize, your website can up and running without much hassle.  From scratch-pad to implementation, I will design and create your front-end site all in on stop.</p>
+            <p class="light">Utilizing JavaScript, JQuery, and frameworks such as Bootstrap and Materialize, your website can get up and running without much hassle.</p>
+
+            <p class="light">NanoLamb Development is is about precise, workable front-end coding.</p>
           </div>
         </div>
-
-        <!-- <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center red-text text-accent-4"><i class="mdi-action-face-unlock"></i></h2>
-            <h5 class="center"></h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div> -->
       </div>
 
     </div>
@@ -93,7 +93,7 @@
   </div>
 
   <div class="container">
-    <div class="section">
+    <div id="contact" class="section">
 
       <div class="row">
         <div class="col s12 center">
@@ -129,7 +129,7 @@
 	      	</div>
 
 	      	<div class="row">
-		        <button class="btn waves-effect waves-light" type="submit" name="action">Submit<i class="mdi-content-send right"></i></button>
+		        <button class="btn waves-effect waves-light blue-grey" type="submit" name="action">Submit<i class="mdi-content-send right"></i></button>
 	      	</div>
 		</form>
         </div>
@@ -143,29 +143,31 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light blue-grey-text text-darken-4">Mary had a little lamb, who loved to design and develop</h5>
+          <h5 class="header col s12 blue-grey-text text-darken-4">Mary had a nano lamb, who loved to design and develop</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="pics/sleepinglamb.jpg" alt="Sleeping lamb. Photo by Alan Cleaver"></div>
+    <div class="parallax"><img src="pics/sleepinglamb.jpg" alt="Sleeping lamb. Photo by Alan Cleaver" class="opacity"></div>
   </div>
 
   <footer class="page-footer blue-grey">
-    <div class="container">
+    <div id="about" class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Mary Stewart</h5>
-          <p class="grey-text text-lighten-4">Mary is a self taught designer and has worked with non-profit organizations as in-house graphic designer.  Through online tutorials and experimentation, Mary learned HTML, CSS, and JavaScript.  </p>
+          <h4 class="white-text">About Mary Stewart</h4>
+          <h5 class="white-text">The brains behind NanoLamb</h5>
+          <p class="grey-text text-lighten-4">Mary is a self taught designer and has worked with non-profit organizations as in-house graphic designer.  Through online tutorials and experimentation, Mary learned HTML, CSS, and JavaScript.</p>
+          <p class="grey-text text-lighten-4">With experience with frameworks like Bootstrap and Materialize, Mary had created NanoLamb Design and Development to be a one-stop shop for your front-end web development needs.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#">Home</a></li>
+            <li><a class="white-text" href="#about">About</a></li>
+            <li><a class="white-text" href="#contact">Contact</a></li>
+            <li><a class="white-text" href="#!">Portfolio</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
