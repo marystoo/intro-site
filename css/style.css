@@ -19,6 +19,7 @@ nav .brand-logo {
 
 #about h4{
   font-family: 'Handlee', cursive;
+  margin: 1rem 0 0.8rem 0;
 }
 
 p {
@@ -38,6 +39,12 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
+@media only screen and (max-width: 1900px){
+  .self {
+    min-width: 100px;
+  }
+}  
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -62,6 +69,20 @@ p {
 
   h1 {
     font-size: 2.75em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container{
+    min-width: 350px;
+  }
+
+  h4 {
+    font-size: 2em;
+  }
+
+  h5{
+    font-size: 1.5em;
   }
 }
 
