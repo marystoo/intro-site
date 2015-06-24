@@ -108,3 +108,7 @@ footer.page-footer {
 img.opacity {
   opacity: 0.7;
 }
+
+.portfolio {
+  border-bottom: 1px solid #546e7a;
+}

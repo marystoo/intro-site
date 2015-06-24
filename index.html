@@ -11,25 +11,27 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">NL</a>
-      <ul class="right hide-on-med-and-down">
-      	<li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">NL</a>
+        <ul class="right hide-on-med-and-down">
+        	<li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu blue-grey-text"></i></a>
-    </div>
-  </nav>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu blue-grey-text"></i></a>
+      </div>
+    </nav>
+  </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -72,7 +74,7 @@
 
             <p class="light">Utilizing JavaScript, JQuery, and frameworks such as Bootstrap and Materialize, your website can get up and running without much hassle.</p>
 
-            <p class="light">NanoLamb Development is is about precise, workable front-end coding.</p>
+            <p class="light">NanoLamb Development is about precise, workable front-end coding.</p>
           </div>
         </div>
       </div>
@@ -104,19 +106,19 @@
         <form class="col s12 m8" action="/contact" method="post">
 		    <div class="row">
 		 	   <div class="input-field col s6">
-		          <input id="name" type="text" class="validate">
+		          <input id="name" name="name" type="text" class="validate">
 		          <label for="name">Full Name</label>
 		        </div>
 		    
 		        <div class="input-field col s6">
-		          <input id="email" type="email" class="validate">
+		          <input id="email" name="email" type="email" class="validate">
 		          <label for="email">Email</label>
 		        </div>
 	      	</div>
 
 	      	<div class="row">
 		        <div class="input-field col s12">
-		          <textarea id="message" class="materialize-textarea"></textarea>
+		          <textarea id="message" name="message" class="materialize-textarea"></textarea>
 		          <label for="message">Message</label>
 		        </div>
 	      	</div>
